@@ -7,6 +7,4 @@ LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
 LOCAL_PACKAGE_NAME := SoundRecorder
 
-LOCAL_PRIVILEGED_MODULE := true
-
 include $(BUILD_PACKAGE)
